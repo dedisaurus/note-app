@@ -1,0 +1,11 @@
+<div class="note">
+  <div class="note_content">
+    <p>Note : {{isi_note | uppercase | pipeSensor}}</p> 
+    <p>Date Created : {{tanggalNote | date:'medium'}}</p>
+    <p>The hero's birthday is {{birthday | date:'longDate'}}</p>
+  </div>
+  <div class="note_action">
+    <a class="btn" (click)="editNote()">Edit</a>
+    <a class="btn">Delete</a>
+  </div>
+</div>
